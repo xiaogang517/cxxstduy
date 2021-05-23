@@ -31,6 +31,12 @@ git rm my.cpp
 #将修改过的（或者新建的）文件/目录添加到git
 git add myfloder
 
+#撤销
+git reset myfloder
+
+#恢复上一个提交的状态
+git checkout myfloder
+
 #查看修改的内容
 git diff HEAD
 git diff my.cpp
@@ -44,3 +50,8 @@ git commit -m "your message"
 #推送到github网站
 git push
 
+#拷贝一个仓库 
+git clone https://github.com/xiaogang517/cxxstduy.git
+
+#若仓库已经拷贝，但该仓库有更新没有被同步（比如另外一个用户提交了新的内容上去）
+git pull
