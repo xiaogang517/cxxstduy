@@ -1,0 +1,288 @@
+
+body{
+	background: #f5f5f5;
+}
+
+section{
+	width: 1198px;
+	height: 1508px;
+	margin: 29px auto 0px;
+
+}
+
+
+section .myorder{
+	width: 1068px;
+	height: 60px;
+	padding-left:20px; 
+	color:#666666; 
+	float: left;
+	background:#ffffff;
+	margin-bottom: 20px;
+	line-height: 60px;
+	font-size: 12px;
+	font-weight: bold;
+}
+section .order{
+	width: 1048px;
+	height: 500px;
+	padding: 25px 20px 0px;
+	float: left;
+	background: #fff;
+}
+.order-top{
+	width: 1048px;
+	height: 22px;
+	margin-bottom: 16px;
+	position: relative;
+}
+.order-top>ul{
+	width: 550px;
+	text-align: center;
+	line-height: 22px;
+	float: left;
+	font-size: 12px;
+}
+.order-top>ul>li{
+	padding: 0px 39px;
+	border-right: 1px dashed #eeeeee;
+	float: left;
+	position: relative;
+}
+.order-top li:hover{
+	color: red;
+}
+.order-top>ul>li a:hover{
+	color: red;
+}
+.order-top .trun{
+	border-right: none;
+	color: #999999;
+}
+.order-top .all{
+	padding: 0px 18px 0px 0px;  /*39-21*/
+}
+.order-top .all a{
+	margin-right: 18px;
+	color:#333333;
+	text-decoration: none;
+}
+.order-top>ul .red{
+	font-weight: bold;
+	color:red;
+	text-decoration: underline;
+}
+.order-top .usually{
+	font-weight: bold;
+}
+.order-top form{
+	width: 232px;
+	height: 22px;
+	background: #fff;
+	float: right;
+	border: 1px solid #dddddd;
+	font-size: 12px;
+}
+.order-top input{
+	font-size: 14px;
+	width: 168px;
+	height: 22px;
+	border: none;
+	outline: none;
+	background: white;
+	float: left;
+	margin-left: 4px;
+}
+.order-top label span{
+	font-size: 14px;
+	width: 38px;
+	height: 22px;
+	border: 1px solid #dddddd;
+	border-top: none;
+	border-bottom: none;
+	background: #f6f5f5;
+	float: right;
+	position: relative;
+}
+.order-top label>span::after{
+	content: "";
+	width: 33px;
+	height: 22px;
+	background: url("../images/order-icons.png")no-repeat 0px -54px;
+	position: absolute;
+	left:10px;
+}
+
+
+.all1,.wait1,.wait2,.wait3,.wait4{
+	position: absolute;
+	top: 32px;
+	left: 0px;
+}
+
+.order-table{
+	width: 1048px;
+	height: 34px;
+	background: #f5f5f5;
+	text-align: left;
+	line-height: 34px;
+	color: #666666;
+	font-size: 13px;
+
+}
+.order-table>ul>li{
+	float: left;
+}
+
+.nearly-three-month{
+	width: 114px;      
+	padding-left: 22px;
+	margin-right: 203px;
+	position: relative;
+}
+.nearly-three-month::after{
+	content: "";
+	width: 9px;
+	height: 6px;
+	background: url(../images/order-icons.png) no-repeat -36px -206px;
+	position: absolute;
+	top: 14px;
+	right: 10px;
+}
+
+.order-table>ul>li:nth-of-type(2){
+	width: 290px;
+}
+.order-table>ul>li:nth-of-type(3){
+	width: 118px;
+}
+.order-table>ul>li:nth-of-type(4){
+	width: 77px;
+}
+
+.all-stait{
+	width: 68px;
+	position: relative;
+	padding-left: 12px;
+	margin-right: 69px;
+	z-index: 7px;
+}
+.all-stait::after{
+	content: "";
+	width: 9px;
+	height: 6px;
+	background: url(../images/order-icons.png) no-repeat -36px -206px;
+	position: absolute;
+	top: 14px;
+	right: -7px;
+}
+
+.order-table>ul>li:nth-of-type(6){
+	width: 74px;
+}
+
+.nearly-three-month ol,.all-stait ol{
+	width: 134px;
+	height: 310px;	
+	background: #fff; 
+	box-shadow: 2px 2px 5px #888888;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+.all-stait ol{
+	width: 97px;
+	height: 207px;	
+}
+.all-stait ol>li{
+	width: 78px;
+	padding-left: 19px;
+	line-height: 34px;	
+}
+.nearly-three-month a,.all-stait a{
+	color: #666666;
+	text-decoration: none;
+}
+.nearly-three-month li:hover{
+	background: #f5f5f5;
+}
+.order-table ol a:hover{
+	color: red;
+}
+.all-stait li:hover{
+	background: #f5f5f5;
+}
+.nearly-three-month li{
+	padding-left:20px;
+	width: 114px;
+	height: 34px;
+}.nearly-three-month a,.all-stait a{
+	color: #666666;
+	text-decoration: none;
+}
+.nearly-three-month li:hover{
+	background: #f5f5f5;
+}
+.order-table ol a:hover{
+	color: red;
+}
+.all-stait li:hover{
+	background: #f5f5f5;
+}
+.nearly-three-month li{
+	padding-left:20px;
+	width: 114px;
+	height: 34px;
+}
+.dog p{
+	width: 500px;
+	font-size: 18px;
+	color: #666666;
+	margin-top: 130px;
+	margin-left: 344px;
+	position: relative;
+}
+.dog img{
+	width: 115px;
+	height: 123px;
+	vertical-align: middle;
+}
+.dog{
+	position: relative;
+}
+.dog a{
+	color:  #323333;
+	text-decoration: none;
+}
+.dog>a .check{
+	/*content: "查看全部订单";*/
+	width: 100px;
+	height: 24px;
+	background:#f4f3f3;
+	position: absolute;
+	top: 80px;
+	left:465px;
+	border:1px solid #dddddd;
+	border-radius: 3px;
+	color: #323333;
+	text-align: center;
+	line-height: 24px;
+	font-size: 12px;
+}
+.dog>a .first{
+	/*content: "去首页看看";*/
+	width: 89px;
+	height: 24px;
+	background: #e13639;
+	position: absolute;
+	top:80px;
+	left: 460px;
+	border-radius: 3px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 24px;
+	font-size: 12px;
+	border: 0px;
+	outline: none;
+}
+
